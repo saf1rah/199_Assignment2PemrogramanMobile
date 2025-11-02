@@ -1,3 +1,4 @@
+kode utama berada di lib/
 # tugas2
 
 A new Flutter project.
