@@ -19,7 +19,7 @@ class LoginScreen extends StatelessWidget {
             left: 0,
             right: 0,
             child: Container(
-              height: MediaQuery.of(context).size.height * 0.50, // gambar stop di bawah password
+              height: MediaQuery.of(context).size.height * 0.53, // gambar stop di bawah password
               decoration: const BoxDecoration(
                 image: DecorationImage(
                   image: AssetImage('assets/bg_cinema.jpg'),
@@ -34,7 +34,7 @@ class LoginScreen extends StatelessWidget {
           //  FADE GRADIENT KE HITAM (nyatu, tanpa garis)
           // ======================
           Positioned(
-            top: MediaQuery.of(context).size.height * 0.43, // mulai gelap bawah password
+            top: MediaQuery.of(context).size.height * 0.60, // mulai gelap bawah password
             left: 0,
             right: 0,
             child: Container(

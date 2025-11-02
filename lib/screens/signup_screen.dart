@@ -33,7 +33,7 @@ class SignupScreen extends StatelessWidget {
           //  GRADIENT FADE ke HITAM (menyatu halus, tanpa gap)
           // ======================
           Positioned(
-            top: MediaQuery.of(context).size.height * 0.45, // mulai gelap dari bawah password
+            top: MediaQuery.of(context).size.height * 0.60, // mulai gelap dari bawah password
             left: 0,
             right: 0,
             child: Container(
